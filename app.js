@@ -2,16 +2,19 @@ const fs = require("fs");
 
 // Part 1 Read json file ===========================
 const rawdata = fs.readFileSync("explorers.json");
-const explorers = JSON.parse(rawdata);
+const explorers = JSON.parse(rawdata); // Lista de explorers de archivo JSON
+
+console.log(rawdata)
+console.log(explorers)
 
 // Part 2: Get the quantity of explorers names in node
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
-//console.log(explorersInNode.length)
+console.log("Explorers en node: " + explorersInNode.length)
 
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
-//console.log(usernamesInNode)
+console.log(usernamesInNode)
 
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
@@ -45,7 +48,7 @@ const assignBuzzTrick = function (explorer) {
 };
 
 const explorersInNodeAndBuzzTrick = explorersInNode.map((explorer) => assignBuzzTrick(explorer));
-
+console.log(explorersInNodeAndBuzzTrick)
 //Part7: Get a new list of explorers in Node, if the score number is divisible by 3 AND by 5 we need to set a new property called FIZZBUZZ, if not this value should be the same score value
 
 const assignFizzBuzzTrick = function (explorer) {

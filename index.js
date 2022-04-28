@@ -9,7 +9,7 @@ const explorers = Reader.readJsonFile("explorers.json");
 //console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"));
 
 //console.log(ExplorerService.getExplorersUsernamesByMission(explorers, "node"));
-
+/*
 const explorer1 = { name: "Explorer1", score: 1 };
 const test1 = FizzbuzzService.applyValidationInExplorer(explorer1); // {name: "Explorer1", score: 1, trick: 1} 
 console.log(test1);
@@ -29,3 +29,4 @@ console.log(test4);
 const fizzbuzz1 = 1;
 const fizzbuzztest1 = FizzbuzzService.applyValidationInNumber(fizzbuzz1);
 console.log(fizzbuzztest1);
+*/

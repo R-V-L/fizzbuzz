@@ -32,6 +32,6 @@ Run the following command to run the express server:
 	```
 ## Access endpoints
 With either [postman](https://www.postman.com), [hoppscotch](https://hoppscotch.io/es/) or your web browser access the following endpoints (change :mission for either "node" or "java"):
-	* http://localhost:3000/v1/explorers/:mission
-	* http://localhost:3000/v1/explorers/amount/:mission
-	* http://localhost:3000/v1/explorers/usernames/:mission
+- http://localhost:3000/v1/explorers/:mission
+- http://localhost:3000/v1/explorers/amount/:mission
+- http://localhost:3000/v1/explorers/usernames/:mission

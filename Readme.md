@@ -4,19 +4,19 @@
 ## Getting started
 In order to have this up and running you need to do the following:
 
-1. Clone repo
+1. Clone repo  
 Make sure you have [Git](https://git-scm.com/downloads) installed. Open the terminal and clone this repo with:
 	```
 	git repo clone https://github.com/R-V-L/fizzbuzz
 	```
-2. Install dependencies
+2. Install dependencies  
 CD to the fizzbuzz folder and install the required dependencies (you must have [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed):
 	```
 	npm install express --save-dev
 	npm install jest --save-dev
 	npm install eslint --save-dev
 	```
-3. Run tests
+3. Run tests  
 Run the required tests to make sure everything works as expected:
 	```
 	# If you use Windows

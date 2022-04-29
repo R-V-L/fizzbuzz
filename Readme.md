@@ -31,7 +31,10 @@ Run the following command to run the express server:
 	npm run server
 	```
 ## Access endpoints
-With either [postman](https://www.postman.com), [hoppscotch](https://hoppscotch.io/es/) or your web browser access the following endpoints (change :mission for either "node" or "java"):
-- http://localhost:3000/v1/explorers/:mission
-- http://localhost:3000/v1/explorers/amount/:mission
-- http://localhost:3000/v1/explorers/usernames/:mission
+With either [postman](https://www.postman.com), [hoppscotch](https://hoppscotch.io/es/) or your web browser access the following endpoints:
+1. Explorers (change :mission with either "node" or "java")
+    - http://localhost:3000/v1/explorers/:mission
+    - http://localhost:3000/v1/explorers/amount/:mission
+    - http://localhost:3000/v1/explorers/usernames/:mission
+2. FizzBuzz (change :score with any number)
+    - http://localhost:3000/v1/fizzbuzz/:score

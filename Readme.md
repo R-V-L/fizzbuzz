@@ -15,6 +15,7 @@ CD to the fizzbuzz folder and install the required dependencies (you must have [
 	npm install express --save-dev
 	npm install jest --save-dev
 	npm install eslint --save-dev
+    npm install node-telegram-bot-api --save-dev
 	```
 3. Run tests  
 Run the required tests to make sure everything works as expected:
@@ -38,3 +39,9 @@ With either [postman](https://www.postman.com), [hoppscotch](https://hoppscotch.
     - http://localhost:3000/v1/explorers/usernames/:mission
 2. FizzBuzz (change :score with any number)
     - http://localhost:3000/v1/fizzbuzz/:score
+
+## Access telegram bot
+
+1. Go to https://telegram.me/FizzBuzzLchXBot
+2. Send /start
+3. Send a number or a mission (either "node" or "java")

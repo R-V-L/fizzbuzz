@@ -15,6 +15,7 @@ CD to the fizzbuzz folder and install the required dependencies (you must have [
 	npm install express --save-dev
 	npm install jest --save-dev
 	npm install eslint --save-dev
+    npm install dotenv --save-dev
     npm install node-telegram-bot-api --save-dev
 	```
 3. Run tests  
